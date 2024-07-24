@@ -17,7 +17,7 @@ export default function Home() {
       <Features />
       <Cars />
       <CarImages />
-      <HowItWorks />
+      {/* <HowItWorks /> */}
       <Retro />
       <Faq />
       <Testimonial />
