@@ -1,6 +1,8 @@
+import Template from "../transition";
 
 export default function Retro() {
   return (
+    <Template>
     <div className="relative flex flex-col items-center justify-center bg-black">
       <section className="overflow-hidden sm:grid sm:grid-cols-2">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
@@ -31,5 +33,6 @@ export default function Retro() {
         <div className="absolute bottom-0 left-0 w-full h-0.5 bg-white"></div>
     </section>
   </div>
+  </Template>
   )
 }

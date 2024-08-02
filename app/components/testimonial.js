@@ -1,6 +1,7 @@
 'use client'
 import { useKeenSlider } from 'keen-slider/react'
 import { FaStar } from "react-icons/fa6";
+import Template from '../transition';
 
 const userReviews = [{
     user: "თორნიკე", 
@@ -43,6 +44,7 @@ export default function Testimonial() {
         []
       )
   return (
+    <Template>
     <div className="relative flex flex-col items-center justify-center bg-black pt-10 py-20 overflow-x-hidden	">
         <div>
             <div className="text-center text-3xl mb-8"> 
@@ -87,5 +89,6 @@ export default function Testimonial() {
             </div>
         <div className="absolute bottom-0 left-0 w-full h-0.5 bg-white"></div>
     </div>
+    </Template>
   )
 }

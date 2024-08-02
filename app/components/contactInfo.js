@@ -1,7 +1,9 @@
+import Template from "../transition";
 
 
 export default function ContactInfo() {
   return (
+    <Template>
     <div className="mb-0.5"> 
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-12 py-5 bg-black">
           <div className="flex flex-col items-center">
@@ -37,5 +39,6 @@ export default function ContactInfo() {
           </div>  
 </div>
 </div>
+</Template>
   )
 }

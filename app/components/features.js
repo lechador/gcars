@@ -4,6 +4,7 @@ import { RiUserHeartLine, RiAuctionFill  } from "react-icons/ri";
 import { MdOutlineContentPasteSearch, MdNetworkCheck  } from "react-icons/md";
 import { IoDocumentAttach } from "react-icons/io5";
 import { GrUserManager } from "react-icons/gr";
+import Template from "../transition";
 
 
 
@@ -12,6 +13,7 @@ export default function Features() {
     const iconColor = "rgb(234 179 8)"
     const iconSize = 50
   return (
+    <Template>
     <div className="relative flex items-center justify-center bg-black ">
         <div className="my-10">
             <div className="text-center text-3xl mb-8"> 
@@ -94,5 +96,6 @@ export default function Features() {
         </div>
         <div className="absolute bottom-0 left-0 w-full h-0.5 bg-white"></div>
     </div>
+    </Template>
   )
 }
