@@ -1,12 +1,7 @@
-import { getServerSession } from "next-auth/next"
-import { authOptions } from "../api/auth/[...nextauth]/route";
 import Link from "next/link";
-import Logout from "./logout";
 
 
 export default async function NavbarServer () {
-    const session = await getServerSession(authOptions)
-    console.log(JSON.stringify(session, null, 2))
     return (
         <nav className="bg-black text-white py-4 px-6">
         <div className="container mx-auto flex justify-between items-center">
@@ -26,13 +21,9 @@ export default async function NavbarServer () {
             <Link href='/dealer' className="hover:text-yellow-500 text-xl">
               გახდი დილერი
             </Link>
-            {session ? (
-              <Logout />
-            ) : (
               <Link href='/dashboard' className="hover:text-yellow-500 text-xl">
-                 შესვლა
+                 კაბინეტში შესვლა
               </Link>
-            )}
           </div>
         </div>
       </nav>

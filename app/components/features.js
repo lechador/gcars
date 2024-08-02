@@ -1,4 +1,12 @@
-import { FaHandHoldingUsd } from "react-icons/fa";
+import { FaHandHoldingUsd, FaCalculator, FaUnlock, FaNewspaper, FaTruckLoading} from "react-icons/fa";
+import { FaDesktop, FaPhotoFilm  } from "react-icons/fa6";
+import { RiUserHeartLine, RiAuctionFill  } from "react-icons/ri";
+import { MdOutlineContentPasteSearch, MdNetworkCheck  } from "react-icons/md";
+import { IoDocumentAttach } from "react-icons/io5";
+import { GrUserManager } from "react-icons/gr";
+
+
+
 
 export default function Features() {
     const iconColor = "rgb(234 179 8)"
@@ -12,52 +20,75 @@ export default function Features() {
             </div>
             <div className="grid grid-cols-2 gap-4 lg:grid-cols-3 lg:gap-24">
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <RiUserHeartLine size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">
+                        პროფესიონალური რჩევა ავტომობილის შერჩევის პროცესში
+                    </span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <MdOutlineContentPasteSearch size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">
+                    მანქანის სრული ისტორია
+                    </span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <FaCalculator size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">
+                    საქართველოში მანქანის
+                    საბოლოო ღირებულების გამოანგარიშება
+                    </span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <FaUnlock size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">
+                        დახურულ აუქციონებზე წვდომა
+                    </span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <RiAuctionFill size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">
+                        აუქციონში მონაწილეობა
+                    </span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <FaDesktop size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">         
+                        ტრანსპორტირების კალკულატორზე წვდომა
+                    </span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <FaPhotoFilm size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">
+                    ფოტო ამერიკის და საქართველოს პორტებიდან
+                    </span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <FaNewspaper size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">
+                    ოფიციალური ხელშეკრულება
+                    </span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <MdNetworkCheck size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">
+                    ავტოლიზინგი / დაფინანსება
+                    </span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <IoDocumentAttach size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">
+                    მანქანის რეგისტრაციისთვის
+                    ან რეექსპორტისთვის საჭირო ყველა დოკუმენტი
+                    </span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <GrUserManager size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">24/7 პირადი მენეჯერი</span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <FaHandHoldingUsd size={iconSize} color={iconColor} />
-                    <span className="text-white mt-2">რაღაცა ტექსი აქ</span>
+                    <FaTruckLoading  size={iconSize} color={iconColor} />
+                    <span className="text-white mt-2 max-w-40 text-center">ევაკუატორის
+                    მომსახურეობა</span>
                 </div>
             </div>
         </div>

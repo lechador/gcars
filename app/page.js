@@ -1,5 +1,6 @@
 import CarImages from "./components/carImages";
 import Cars from "./components/cars";
+import ContactInfo from "./components/contactInfo";
 import Faq from "./components/faq";
 import Features from "./components/features";
 import Hero from "./components/hero";
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
+      <ContactInfo />
       <Features />
       <Cars />
       <CarImages />
@@ -21,7 +23,7 @@ export default function Home() {
       <Retro />
       <Faq />
       <Testimonial />
-      <Partners />
+      {/* <Partners /> */}
       <ScrollToTopButton />
     </div>
   )

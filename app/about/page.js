@@ -3,7 +3,7 @@ export default function AboutPage() {
   return (
     <div className="font-[sans-serif] bg-gradient-to-r from-yellow-500 to-indigo-800 py-12 px-4">
       <div className="max-w-7xl mx-auto">
-      <h2 class="text-white sm:text-4xl text-2xl font-bold text-center mb-16">ჩვენს შესახებ</h2>
+      <h2 className="text-white sm:text-4xl text-2xl font-bold text-center mb-16">ჩვენს შესახებ</h2>
       <div className="bg-white shadow-[0_4px_12px_-5px_rgba(0,0,0,0.4)] p-6 w-full rounded-lg font-[sans-serif] overflow-hidden mx-auto my-4">
       <p className="mt-3 text-md text-gray-500 leading-relaxed">
       კეთილი იყოს თქვენი მობრძანება Gcars-ში, თქვენი მთავარი დანიშნულების ადგილი ავტო იმპორტის სერვისებისთვის.  ფართო გამოცდილებითა და მომხმარებელთა კმაყოფილების ერთგულებით,  ჩამოვყალიბდით, როგორც სანდო პარტნიორი ავტო იმპორტის ინდუსტრიაში. ჩვენ გვესმის, რომ სწორი კომპანიის არჩევა თქვენი ავტომობილების იმპორტისთვის  მნიშვნელოვანი გადაწყვეტილებაა და მიგვაჩნია, რომ არსებობს რამდენიმე დამაჯერებელი მიზეზი, თუ რატომ უნდა აირჩიოთ Gcars.
