@@ -24,20 +24,19 @@ export default function Features() {
                 <div className="flex flex-col items-center">
                     <RiUserHeartLine size={iconSize} color={iconColor} />
                     <span className="text-white mt-2 max-w-40 text-center">
-                        პროფესიონალური რჩევა ავტომობილის შერჩევის პროცესში
+                        დახმარება ავტომობილის შერჩევის პროცესში
                     </span>
                 </div>
                 <div className="flex flex-col items-center">
                     <MdOutlineContentPasteSearch size={iconSize} color={iconColor} />
                     <span className="text-white mt-2 max-w-40 text-center">
-                    მანქანის სრული ისტორია
+                    ავტომობილის სრული ისტორია
                     </span>
                 </div>
                 <div className="flex flex-col items-center">
                     <FaCalculator size={iconSize} color={iconColor} />
                     <span className="text-white mt-2 max-w-40 text-center">
-                    საქართველოში მანქანის
-                    საბოლოო ღირებულების გამოანგარიშება
+                    ავტომობილის ხარჯების დათვლა
                     </span>
                 </div>
                 <div className="flex flex-col items-center">
@@ -49,7 +48,7 @@ export default function Features() {
                 <div className="flex flex-col items-center">
                     <RiAuctionFill size={iconSize} color={iconColor} />
                     <span className="text-white mt-2 max-w-40 text-center">
-                        აუქციონში მონაწილეობა
+                        copart, iaai, manheim, pipeline, adesa აუქციონებში მონაწილეობა
                     </span>
                 </div>
                 <div className="flex flex-col items-center">

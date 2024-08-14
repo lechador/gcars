@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
 import L from 'leaflet';
 
 export default function LeafletMap() {
-    const position = [41.72, 44.81]
+    const position = [41.79689026292022, 44.77011215354279]
     const customIcon = L.icon({
         iconUrl: '/marker.png',
         iconSize: [50, 50]
@@ -18,7 +18,7 @@ export default function LeafletMap() {
                 position && (
                     <Marker position={position} icon={customIcon}>
                         <Popup>
-                            ტექსტი
+                            დავით აღმაშენებლის ხეივანი 122
                         </Popup>
                     </Marker>
                 )

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export default function NavbarServer() {
+export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -49,7 +49,7 @@ export default function NavbarServer() {
           <Link href='/dealer' className="hover:text-yellow-500 text-xl">
             გახდი დილერი
           </Link>
-          <Link href='/dashboard' className="hover:text-yellow-500 text-xl">
+          <Link href='/login' className="hover:text-yellow-500 text-xl">
             კაბინეტში შესვლა
           </Link>
         </div>
@@ -68,7 +68,7 @@ export default function NavbarServer() {
             <Link href='/dealer' className="hover:text-yellow-500 text-xl">
               გახდი დილერი
             </Link>
-            <Link href='/dashboard' className="hover:text-yellow-500 text-xl">
+            <Link href='/login' className="hover:text-yellow-500 text-xl">
               კაბინეტში შესვლა
             </Link>
           </div>

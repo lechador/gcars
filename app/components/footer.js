@@ -1,6 +1,8 @@
 'use client'
 import React, { useState } from 'react';
-import dynamic from "next/dynamic"
+import dynamic from "next/dynamic";
+import axios from 'axios';
+import { toast } from 'react-toastify';
 
 const LeafletMap = dynamic(() => import("../components/leaflet"), {
   loading: () => <p>loading...</p>,
@@ -19,11 +21,27 @@ const Footer = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);      
+  const resetFormData = () => {
+    setFormData({
+      name: '',
+      userEmail: '',
+      message: ''
+    });
   };
-  
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post('/send_email.php', new URLSearchParams(formData));
+      toast.success("მონაცემები გაიგზავნა")
+      resetFormData();
+    } catch (error) {
+      console.error('Error:', error);
+      toast.error("დაფიქსირდა შეცდომა")
+      resetFormData();
+    }
+  };
+
   return (
     <footer>
       <section className="text-white bg-black body-font relative">

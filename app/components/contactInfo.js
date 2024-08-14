@@ -13,7 +13,7 @@ export default function ContactInfo() {
             </svg>
             <div className="mt-4 text-center">
               <h4 className="text-yellow-500 text-base font-bold">ოფისი</h4>
-              <p className="text-sm text-white mt-2"> ოფისის მისამართი</p>
+              <p className="text-sm text-white mt-2">აღმაშნებლის ხეივანი N 122</p>
             </div>
           </div>
 
@@ -23,7 +23,9 @@ export default function ContactInfo() {
             </svg>
             <div className="mt-4 text-center">
               <h4 className="text-yellow-500 text-base font-bold">დაგვირეკე</h4>
-              <p className="text-sm text-white mt-2"> ტელეფონის ნომერი</p>
+              <a href="tel:557270743" className="text-sm text-white mt-2">
+                557 27 07 43
+              </a>
             </div>
           </div>
 

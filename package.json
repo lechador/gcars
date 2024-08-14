@@ -10,13 +10,17 @@
   },
   "dependencies": {
     "alk-rounded-mtav-med": "^1.0.0",
+    "axios": "^1.7.3",
     "framer-motion": "^11.3.21",
     "keen-slider": "^6.8.6",
     "next": "14.2.1",
+    "qs": "^6.13.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.1.0",
-    "react-leaflet": "^4.2.1"
+    "react-leaflet": "^4.2.1",
+    "react-toastify": "^10.0.5",
+    "rippleui": "^1.12.1"
   },
   "devDependencies": {
     "eslint": "^8",
